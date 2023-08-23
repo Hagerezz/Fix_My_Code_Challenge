@@ -25,8 +25,6 @@ ARGV.each do |arg|
             break
         end
     end
-    if !is_inserted
-        result.insert(l - 1, i_arg)
     result << i_arg if !is_inserted
 end
 
